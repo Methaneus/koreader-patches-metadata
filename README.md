@@ -9,7 +9,7 @@ Extracts more metadata from epubs, and writes it to a custom file in the sidecar
 title type: subtitle
 contributor types: translator, illustrator
 ```
-Only extracts from books without sidecar. Doesn't add to anything without any of the next patches. Can be expanded to extract more, if desired.
+Only extracts from books without sidecar, and because it reads _all_ metadata on opening a folder (otherwise, you'd have to open the book first before it'd extract), the first time it can be SLOW. Doesn't add to anything without any of the next patches. Can be expanded to extract more, if desired.
 <br/><br/>
 
 ## 2-ui-display-title-with-subtitle.lua
@@ -19,10 +19,11 @@ Patches native and SimpleUI views to use a display title combining the title wit
 With:    Perfume: The Story of a Murderer
 Without: American Psycho
 ```
+Still tweaking this to add more toggles or options. 
 <br/><br/>
 
 ## 2-ui-authors-with-roles.lua
-**Requires 2-epub-extra-metadata.lua**<br/>
+**Requires 2-epub-extra-metadata.lua, if you use the extra contributors**<br/>
 Does multiple things, each togglable in the patch by a boolean:
 - Comma-separated authors: Authors are separated by a comma, instead of a newline. Only newlines when overflow is required for word-wrapping.
 - Add contributors: Adds contributors previously extracted, with a suffix, to the author field. Boolean each for Translator and Illustrator.
