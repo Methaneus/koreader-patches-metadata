@@ -44,3 +44,6 @@ Includes configurable fallback-style (default en-US). Matched case-insensitively
 
 #### Newlines:
 <img src="/screenshots/newline%201.png" width="25%"/> <img src="/screenshots/newline%202.png" width="25%"/>
+
+#### Authors in author view:
+<img src="/screenshots/author%2view.png" width="25%"/>
