@@ -37,4 +37,9 @@ de
 Includes configurable fallback-style (default en-US). Matched case-insensitively, more specific keys win (en-GB > en).
 
 # Screenshots
-coming asap
+### 2-ui-authors-with-roles.lua
+#### Commas:
+<img src="/screenshots/comma%201.png" width="25%"/> <img src="/screenshots/comma%202.png" width="25%"/>
+
+#### Newlines:
+<img src="/screenshots/newline%201.png" width="25%"/> <img src="/screenshots/newline%202.png" width="25%"/>
