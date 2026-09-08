@@ -28,11 +28,12 @@ Does multiple things, each togglable in the patch by a boolean:
 - Add contributors: Adds contributors previously extracted, with a suffix, to the author field. Boolean each for Translator and Illustrator.
 
 ## 2-lang-quotes.lua
-User-configurable automatic quote-tag localization (including nested) based on epub's embedded language tag. Example:
+User-configurable automatic quote-tag localization (including nested) based on epub's embedded language tag. Examples:
 ```
 LANGUAGE TAG: QUOTE, NESTED QUOTE
-en-US, en-CA, en-AU: “ ” , ‘ ’
-de
+en-US, en-CA, en-AU: “Hello” / nested ‘…’
+en-GB: ‘Hello’ / nested “… ”
+de, de-DE „Hallo“ / nested ‚…‘
 ```
 Includes configurable fallback-style (default en-US). Matched case-insensitively, more specific keys win (en-GB > en).
 
