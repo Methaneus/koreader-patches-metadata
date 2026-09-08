@@ -32,13 +32,13 @@ User-configurable automatic quote-tag localization (including nested) based on e
 ```
 LANGUAGE TAG: QUOTE, NESTED QUOTE
 en-US, en-CA, en-AU: “Hello” / nested ‘…’
-en-GB: ‘Hello’ / nested “… ”
+en-GB: ‘Hello’ / nested “…”
 de, de-DE „Hallo“ / nested ‚…‘
 ```
 Includes configurable fallback-style (default en-US). Matched case-insensitively, more specific keys win (en-GB > en).
 
 # Screenshots
-### 2-ui-authors-with-roles.lua
+### 2-ui-authors-with-roles.lua _with_ 2-ui-display-title-with-subtitle.lua
 #### Commas:
 <img src="/screenshots/comma%201.png" width="25%"/> <img src="/screenshots/comma%202.png" width="25%"/>
 
