@@ -28,6 +28,7 @@ Does multiple things, each togglable in the patch by a boolean:
 - Add contributors: Adds contributors previously extracted, with a suffix, to the author field. Boolean each for Translator and Illustrator.
 
 ## 2-lang-quotes.lua
+_KOReader should have this build in if there's a lang tag in the element, but it didn't work for me. Might not be needed at all, further testing is necessary._<br/>
 User-configurable automatic quote-tag localization (including nested) based on epub's embedded language tag. Examples:
 ```
 LANGUAGE TAG: QUOTE, NESTED QUOTE
